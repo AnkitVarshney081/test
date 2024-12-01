@@ -1,0 +1,64 @@
+name: task02
+build_projects_mapping:
+  python: src
+lambdas:
+  hello_world1:
+    runtime: python
+events:
+- operation: deploy
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  deploy_name: task02
+  time_start: '2024-12-01T17:09:09Z'
+  time_end: '2024-12-01T17:09:25Z'
+  duration_sec: 16.4
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  time_start: '2024-12-01T17:08:56Z'
+  time_end: '2024-12-01T17:08:58Z'
+  duration_sec: 2.319
+- operation: upload
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  time_start: '2024-12-01T17:08:57Z'
+  time_end: '2024-12-01T17:08:58Z'
+  duration_sec: 1.126
+- operation: package_meta
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  time_start: '2024-12-01T17:08:57Z'
+  time_end: '2024-12-01T17:08:57Z'
+  duration_sec: 0.001
+- operation: assemble
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  time_start: '2024-12-01T17:08:57Z'
+  time_end: '2024-12-01T17:08:57Z'
+  duration_sec: 0.034
+- operation: assemble_python
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  time_start: '2024-12-01T17:08:57Z'
+  time_end: '2024-12-01T17:08:57Z'
+  duration_sec: 0.032
+- operation: test
+  initiator: ankit_varshney
+  time_start: '2024-12-01T17:08:57Z'
+  time_end: '2024-12-01T17:08:57Z'
+  duration_sec: 0.095
+locks:
+  modification_lock:
+    last_modification_date: '2024-12-01T11:39:25Z'
+    locked_till: null
+    initiator: ankit_varshney
+latest_deploy:
+  initiator: ankit_varshney
+  bundle_name: task02_241201.170855
+  deploy_name: task02
+  time_start: '2024-12-01T17:09:09Z'
+  time_end: '2024-12-01T17:09:25Z'
+  duration_sec: 16.4
+  is_succeeded: true

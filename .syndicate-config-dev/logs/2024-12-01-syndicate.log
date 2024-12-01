@@ -1,0 +1,88 @@
+2024-12-01 17:07:41,636 [INFO] USER:ankit_varshney project.py:77:generate_project_structure LOG: Project task02 folder has been successfully created.
+2024-12-01 17:07:41,636 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage project, elapsed time: 0:00:00.001039
+2024-12-01 17:08:36,004 [WARNING] USER:ankit_varshney __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2024-12-01 17:08:36,004 [WARNING] USER:ankit_varshney __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2024-12-01 17:08:36,005 [INFO] USER:ankit_varshney helper.py:587:check_lambda_name LOG: Validating lambda name: 'hello_world1'
+2024-12-01 17:08:36,005 [INFO] USER:ankit_varshney helper.py:602:check_lambda_name LOG: Lambda name: 'hello_world1' passed the validation
+2024-12-01 17:08:36,005 [INFO] USER:ankit_varshney helper.py:576:resolve_project_path LOG: Parameter: 'project_path' wasn't specified. Getting automatically
+2024-12-01 17:08:36,005 [INFO] USER:ankit_varshney helper.py:580:resolve_project_path LOG: Path: '/Users/ankit_varshney/task02' was assigned to the parameter: 'project_path'
+2024-12-01 17:08:36,006 [INFO] USER:ankit_varshney lambda_function.py:229:_generate_python_lambdas LOG: Lambdas path: /Users/ankit_varshney/task02/src/lambdas
+2024-12-01 17:08:36,007 [INFO] USER:ankit_varshney lambda_function.py:276:_generate_python_lambdas LOG: Lambda hello_world1 created
+2024-12-01 17:08:36,007 [INFO] USER:ankit_varshney lambda_function.py:168:generate_lambda_function LOG: Lambda hello_world1 has been successfully added to the project.
+2024-12-01 17:08:36,007 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage lambda_function, elapsed time: 0:00:00.001804
+2024-12-01 17:08:55,913 [INFO] USER:ankit_varshney processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-12-01 17:08:57,470 [INFO] USER:ankit_varshney handlers.py:166:test LOG: 
+test_success (test_hello_world1.test_success.TestSuccess.test_success) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+----------------------------------------------------------------------
+2024-12-01 17:08:57,471 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage test, elapsed time: 0:00:00.095238
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:381:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: /Users/ankit_varshney/task02/jsrc/main/java/com/task02.
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:381:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: /Users/ankit_varshney/task02/src/lambdas.
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:385:_update_lambdas_from_path LOG: Going to add the following 'python' lambda:'hello_world1' to the pending ProjectState.
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:381:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: /Users/ankit_varshney/task02/app/lambdas.
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:381:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: /Users/ankit_varshney/task02/dnapp/lambdas.
+2024-12-01 17:08:57,473 [INFO] USER:ankit_varshney project_state.py:381:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: /Users/ankit_varshney/task02/swagger_src.
+2024-12-01 17:08:57,474 [INFO] USER:ankit_varshney python.py:58:assemble_python_lambdas LOG: Going to process python project by path: /Users/ankit_varshney/task02/src
+2024-12-01 17:08:57,474 [INFO] USER:ankit_varshney python.py:65:assemble_python_lambdas LOG: Going to build artifact in: /Users/ankit_varshney/task02/src/lambdas/hello_world1
+2024-12-01 17:08:57,474 [INFO] USER:ankit_varshney python.py:136:_build_python_artifact LOG: Building artifact in /Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855
+2024-12-01 17:08:57,474 [INFO] USER:ankit_varshney python.py:144:_build_python_artifact LOG: Artifacts path: /Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/hello_world1-1.0
+2024-12-01 17:08:57,474 [INFO] USER:ankit_varshney python.py:193:install_requirements_to LOG: Going to install 3-rd party dependencies
+2024-12-01 17:08:57,499 [INFO] USER:ankit_varshney python.py:303:install_requirements_for_platform LOG: Going to install 3-rd party dependencies for platforms: manylinux2014_x86_64
+2024-12-01 17:08:57,499 [INFO] USER:ankit_varshney python.py:232:install_requirements_to LOG: 3-rd party dependencies were installed successfully
+2024-12-01 17:08:57,500 [INFO] USER:ankit_varshney python.py:156:_build_python_artifact LOG: Going to install local dependencies
+2024-12-01 17:08:57,500 [INFO] USER:ankit_varshney python.py:340:_install_local_req LOG: Installing local dependencies: ['commons']
+2024-12-01 17:08:57,500 [INFO] USER:ankit_varshney python.py:343:_install_local_req LOG: Processing local dependency: commons
+2024-12-01 17:08:57,502 [INFO] USER:ankit_varshney python.py:159:_build_python_artifact LOG: Local dependencies were installed successfully
+2024-12-01 17:08:57,502 [INFO] USER:ankit_varshney python.py:173:_build_python_artifact LOG: Copying lambda's handler from /Users/ankit_varshney/task02/src/lambdas/hello_world1 to /Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/hello_world1-1.0
+2024-12-01 17:08:57,503 [INFO] USER:ankit_varshney python.py:179:_build_python_artifact LOG: Packaging artifacts by /Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/hello_world1-1.0 to hello_world1-1.0.zip
+2024-12-01 17:08:57,505 [INFO] USER:ankit_varshney python.py:181:_build_python_artifact LOG: Package 'hello_world1-1.0.zip' was successfully created
+2024-12-01 17:08:57,505 [INFO] USER:ankit_varshney helper.py:62:remove_dir LOG: Trying to remove "/Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/hello_world1-1.0"
+2024-12-01 17:08:57,506 [INFO] USER:ankit_varshney python.py:185:_build_python_artifact LOG: "/Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/hello_world1-1.0" was removed successfully
+2024-12-01 17:08:57,506 [INFO] USER:ankit_varshney python.py:89:assemble_python_lambdas LOG: Python project was processed successfully
+2024-12-01 17:08:57,506 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage assemble_python, elapsed time: 0:00:00.032463
+2024-12-01 17:08:57,507 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage assemble_python, elapsed time: 0:00:00.033308
+2024-12-01 17:08:57,507 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage assemble, elapsed time: 0:00:00.034151
+2024-12-01 17:08:57,507 [INFO] USER:ankit_varshney meta_processor.py:507:create_meta LOG: Bundle path: /Users/ankit_varshney/task02/bundles/task02_241201.170855
+2024-12-01 17:08:57,509 [INFO] USER:ankit_varshney helper.py:291:write_content_to_file LOG: /Users/ankit_varshney/task02/.syndicate-config-dev/bundles/task02_241201.170855/build_meta.json file was created.
+2024-12-01 17:08:57,509 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage package_meta, elapsed time: 0:00:00.001242
+2024-12-01 17:08:58,058 [INFO] USER:ankit_varshney bundle_processor.py:191:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-12-01 17:08:58,820 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage upload, elapsed time: 0:00:01.126051
+2024-12-01 17:08:58,825 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage build, elapsed time: 0:00:02.318992
+2024-12-01 17:09:05,438 [INFO] USER:ankit_varshney processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-12-01 17:09:06,404 [INFO] USER:ankit_varshney sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-12-01 17:09:06,405 [INFO] USER:ankit_varshney helper.py:232:resolve_default_value LOG: Resolved value of deploy_name: task02
+2024-12-01 17:09:06,841 [INFO] USER:ankit_varshney project_state.py:121:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-12-01 17:09:06,841 [INFO] USER:ankit_varshney project_state.py:126:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-12-01 17:09:07,211 [INFO] USER:ankit_varshney sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-12-01 17:09:07,211 [INFO] USER:ankit_varshney helper.py:232:resolve_default_value LOG: Resolved value of bundle_name: task02_241201.170855
+2024-12-01 17:09:07,596 [INFO] USER:ankit_varshney project_state.py:121:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-12-01 17:09:07,596 [INFO] USER:ankit_varshney project_state.py:126:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-12-01 17:09:07,964 [INFO] USER:ankit_varshney sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-12-01 17:09:08,346 [INFO] USER:ankit_varshney project_state.py:121:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-12-01 17:09:08,346 [INFO] USER:ankit_varshney project_state.py:126:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-12-01 17:09:08,720 [INFO] USER:ankit_varshney sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-12-01 17:09:10,016 [INFO] USER:ankit_varshney deployment_processor.py:392:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved.
+2024-12-01 17:09:10,017 [INFO] USER:ankit_varshney deployment_processor.py:415:create_deployment_resources LOG: Going to deploy AWS resources
+2024-12-01 17:09:10,118 [INFO] USER:ankit_varshney deployment_processor.py:65:_process_resources LOG: Processing iam_policy resources
+2024-12-01 17:09:11,330 [WARNING] USER:ankit_varshney iam_resource.py:114:_create_policy_from_meta LOG: IAM policy cmtr-994858c2-lambda-basic-execution exists.
+2024-12-01 17:09:11,660 [INFO] USER:ankit_varshney deployment_processor.py:65:_process_resources LOG: Processing iam_role resources
+2024-12-01 17:09:18,883 [INFO] USER:ankit_varshney iam_resource.py:181:_create_role_from_meta LOG: Created IAM role cmtr-994858c2-hello_world1-role.
+2024-12-01 17:09:18,884 [INFO] USER:ankit_varshney deployment_processor.py:77:_process_resources LOG: Processing lambda resources
+2024-12-01 17:09:23,509 [INFO] USER:ankit_varshney lambda_resource.py:1355:_resolve_log_group LOG: Cloud Watch log group for lambda: cmtr-994858c2-hello_world1 does not exists. Creating new log group with name: aws/lambda/cmtr-994858c2-hello_world1
+2024-12-01 17:09:24,775 [INFO] USER:ankit_varshney deployment_processor.py:456:create_deployment_resources LOG: AWS resources were deployed successfully
+2024-12-01 17:09:24,775 [INFO] USER:ankit_varshney deployment_processor.py:459:create_deployment_resources LOG: Going to apply dynamic changes
+2024-12-01 17:09:24,775 [INFO] USER:ankit_varshney deployment_processor.py:461:create_deployment_resources LOG: Dynamic changes were applied successfully
+2024-12-01 17:09:24,775 [INFO] USER:ankit_varshney deployment_processor.py:463:create_deployment_resources LOG: Going to apply post deployment tags
+2024-12-01 17:09:24,783 [INFO] USER:ankit_varshney group_tagging_api_resource.py:87:apply_tags LOG: Tags were successfully applied.
+2024-12-01 17:09:24,783 [INFO] USER:ankit_varshney deployment_processor.py:466:create_deployment_resources LOG: Going to create deploy output
+2024-12-01 17:09:25,848 [INFO] USER:ankit_varshney bundle_processor.py:66:create_deploy_output LOG: Output file with name task02_241201.170855/outputs/task02.json has been created
+2024-12-01 17:09:25,848 [INFO] USER:ankit_varshney deployment_processor.py:474:create_deployment_resources LOG: Deploy output for task02 was created.
+2024-12-01 17:09:25,848 [INFO] USER:ankit_varshney helper.py:328:timed LOG: Stage deploy, elapsed time: 0:00:16.399851
+2024-12-01 17:09:26,219 [INFO] USER:ankit_varshney project_state.py:121:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-12-01 17:09:26,219 [INFO] USER:ankit_varshney project_state.py:126:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-12-01 17:09:26,587 [INFO] USER:ankit_varshney sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced

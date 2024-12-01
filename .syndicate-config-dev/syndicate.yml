@@ -1,0 +1,17 @@
+account_id: '905418349556'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-sbox02/994858c2/task02
+expiration: 2024-12-01 12:26:43.989923+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: arn:aws:iam::905418349556:policy/eo_role_boundary
+project_path: /Users/ankit_varshney/task02
+region: eu-central-1
+resources_prefix: cmtr-994858c2-
+tags:
+  course_id: SEP_GL_6
+  course_type: stm
+  student_id: 994858c2
+  type: student
+temp_aws_access_key_id: ASIA5FTZDTP2ETX2M7W2
+temp_aws_secret_access_key: 2BdwFp31PScFEe1HRv2gQSnL9pcdAUhP8UbhuSWK
+temp_aws_session_token: IQoJb3JpZ2luX2VjEPz//////////wEaCXVzLWVhc3QtMSJGMEQCIGLSRbDbKdObVQm331m2qR74pIpxb3lU9/5d3cHG8rUiAiBZ9ewdqye1A1Di+/g22oAw9QNICa2oXZuxwzvH+rNb3iroAgik//////////8BEAAaDDkwNTQxODM0OTU1NiIMtJkFFDTJGVOnZNW+KrwCOthgiK0FwHJTXzLTzzvfH03zPoIJfEgCOfsgOr4aTpZqAXyZCbAk4uM8kc/lboQtkkpe+56MKqnT03q90Z5MWd5Rq3Z7I+HPDyp09uy2cmsEGrrDRYzj8UPIXI+7ArlAGUyf7WAS+KSWi1OIV03FA9Z8sfJecHHZGZmE2MbP5H7AMhfcMCHqMK7GEpwVSXjLent3h45ouJyZuBYFz5/00MYikIuyeeRUS/8L1Eo75q2X5oyjFGHwngxlymuiA0Us15pR0hHMmTRjR+qXcywAcNUWCV0/facf5osbt7M9bYzg0h9lumy2DX8HusC4BmU6jG7wXeJoATmP2ob1R4BpzHCSeT35BlPe2hWAvkbzdDRB8G0tc4xrPXz+z1VHUEAmnyLy1YdSylsrDoVVGii8zr/WvOd1odqASZUxhzDnibG6BjqeASwzlLqjaZreuLx9EsmIs73dju05w0KXx/y61fZZUzoVndxU+DH+J3aVh/MpsNMV4OqsQbPP/ouZVPGbqgJBSPN8p9ngk/VAGo+JgnjyDwk2ckHdu8JlOqAONKaEKnpoToeQg8kxXRJsajUpp8gb+9G385jOeD8vZyiZCpZyH9r3TU+Um0Xbn8pWMf68C8gQjtx7SGPd+NYnbB/hXmAw
+use_temp_creds: false
